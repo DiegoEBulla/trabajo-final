@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProyectoFinal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <style>
+    header {
+      background-color: rgb(190, 150, 170);
+
+    }
+
+    body {
+      background-image: url(./assets/images/Vector.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: rgb(232, 224, 231);
+    }
+
+    li {
+      list-style-type: none;
+      text-align: center;
+
+    }
+
+    li {
+      display: inline;
+      text-align: center;
+      margin: 0 100px 0 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h5>Envio gratis a todo el país compras superiores a $20.000</h5>
+  </header>
+  <div class="ingreso">
+    <a href="./pages/ingreso-pag.html" target="_blank" rel="noopener noreferrer">Ingreso</a> /
+    <a href="./pages/formulario.html" target="_blank" rel="noopener noreferrer">Registrarse</a>
+  </div>
+  <br>
+  <div style="text-align: center;">
+    <a target="_top" href="https://flamingtext.com/"><img
+        src="https://blog.flamingtext.com/blog/2023/03/29/flamingtext_com_1680124080_1057183964.gif" border="0"
+        alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+  </div>
+  <nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html" style="color: black">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./produc.html">Cardigans</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Conjuntos</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Jeans</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Camisas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#"></a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="nav-link active" aria-current="page" href="./pages/Como Comprar.html" style="color: black">Como
+                Comprar</a>
+            </li>
+            <li>
+              <a class="nav-link active" aria-current="page" href="./pages/Contacto.html"
+                style="color: black">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><a href="./produc.html">Buscar</a></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <main>
+    <div>
+      <ul>
+        <li class="submenu">
+          <img src="./assets/images/carrito2.png" id="img-carrito" alt="" >
+          <div id ="carrito">
+            <table id="lista-carrito">
+              <thead>
+                <tr>
+                  <th>imagen</th>
+                  <th>nombre</th>
+                  <th>precio</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <a href="#" id="vaciar-carrito" class="btn-3" style="margin-left: 850px;">Vaciar Carrito</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  <div class="container" id="lista-productos">
+    <section class="menu">
+      <br>
+      <h1 style="margin-left:250px">Nueva Temporada Otoño-Invierno </h1>
+      <br>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://img.freepik.com/fotos-premium/figuras-moda-femenina-trajes-elegantes-creativos-color-beige-backstage-pantalones-chaqueta-vestido-punto_320785-1722.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/foto-gratis/moda-rapida-vs-moda-lenta-sostenible_23-2149134026.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://img.freepik.com/foto-gratis/mujer-negra-lujo-hermosos-pelos-ondulados-vestido-dorado-brillante-posando-ambiente-fiesta_273443-4009.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <section>
+      <div class="pie">
+        <h1>Promociones</h1>
+        <br>
+        <br>
+        <br>
+
+        <div class="indumentaria">
+          <div class="ropa1">
+            <h3>Promo 1</h3>
+            <div class="precios">
+              <p class="precio-1">$3000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al Carrito</a>
+          </div>
+          <img src="https://qph.cf2.quoracdn.net/main-qimg-83aaeb719001f0c84050395a877b69ab-lq" width="400" height="400"
+            alt="">
+          <div class="ropa2">
+            <h3>Promo 2</h3>
+            <div class="precios">
+              <p class="precio-1">$3000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al Carrito</a>
+          </div>
+          <img
+            src="https://yagmourio.vtexassets.com/arquivos/ids/280302/Sweater-Amelie-Bordo-0800273155-01.jpg?v=1766343345"
+            width="400" height="400" alt="">
+          <div class="ropa3">
+            <h3>Promo 3</h3>
+            <div class="precios">
+              <p class="precio-1">$3000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al Carrito</a>
+          </div>
+          <img src="./assets/images/jens23.webp" width="300" height="400" alt="">
+        </div>
+      </div>
+  </div>
+  </section>
+  </main>
+  <br>
+  <hr>
+  <br>
+</main>
+  <footer class="footer">
+    <br>
+    <br>
+    <div style="margin-left: 110px;" id="columnas">
+      <li><a href="./pages/servicio-cliente.html">Servicio al Cliente</a></li>
+      <li><a href="./pages/nosotros.html"> Sobre Nosotros</a></li>
+      <li><a href="./pages/Politicas.html">Politicas de cambio y devolución</a></li>
+      <li><a href="./pages/Contacto.html">Contactenos</a></li>
+      <li>Seguinos</li>
+      <li>Instragram</li>
+      <li>Facebook</li>
+    </div>
+  </footer>
+  <br>
+  <br>
+  <br>
+  <br>
+  <script src="./carrito.js/formato.js"></script>
+  <script src="./carrito.js/pedido.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

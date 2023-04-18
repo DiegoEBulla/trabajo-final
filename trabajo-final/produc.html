@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ProyectoFinal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style>
+    header {
+      background-color: rgb(190, 150, 170);
+
+    }
+
+    body {
+      background-color: rgb(232, 224, 231);
+    }
+
+    li {
+      list-style-type: none;
+      text-align: center;
+
+    }
+
+    li {
+      display: inline;
+      text-align: center;
+      margin: 0 100px 0 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h5 style="text-align: center;">Envio gratis a todo el país compras superiores a $20.000</h5>
+  </header>
+  <br>
+
+  <div style="text-align: center;">
+    <a target="_top" href="https://flamingtext.com/"><img
+        src="https://blog.flamingtext.com/blog/2023/03/29/flamingtext_com_1680124080_1057183964.gif" border="0"
+        alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+  </div>
+  <br>
+  <br>
+  <nav>
+    <ul>
+      <div style="text-align: center;">
+        <li><a href="./index.html" style="color: black">Home</a></li>
+        <li><a href="./produc.html" style="color: black">Productos</a></li>
+        <li><a href="./pages/Guia de talles.html" style="color: black">Guia de Talles</a></li>
+        <li><a href="./pages/Como Comprar.html" style="color: black">Como Comprar</a></li>
+        <li><a href="./pages/Contacto.html" style="color: black">Contacto</a></li>
+      </div>
+    </ul>
+  </nav>
+ 
+  <br>
+  <main>
+    <div>
+      <ul>
+        <li class="submenu">
+          <img src="./assets/images/carrito2.png" id="img-carrito" alt="" >
+          <div id ="carrito">
+            <table id="lista-carrito">
+              <thead>
+                <tr>
+                  <th>imagen</th>
+                  <th>nombre</th>
+                  <th>precio</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <a href="#" id="vaciar-carrito" class="btn-3" style="margin-left: 850px;">Vaciar Carrito</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+      <section class="produc-containers" id="lista-1">
+
+        <br>
+        <h1 style="margin-left: 550px">Cardigans </h1>
+        <br>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/cardigan2.jpg" class="d-block w-100" alt="Cardigans">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/cardigan 1.jpeg" style="width: 650px; height: 750px;" class="d-block w-100"
+                alt="Cardigans">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="Cardigan">
+          <h3 style="margin-left: 580px;">Cardigan Lisa</h3>
+          <div class="precios">
+            <p style="margin-left: 650px;" class="precio-1">$3000</p>
+          </div>
+          <a href="#" class="agregar-carrito btn-3" data-id="1" style="margin-left: 580px;">Agregar al Carrito</a>
+        </div>
+        <br>
+
+      </section>
+
+      <select  class="form-select-talle" aria-label="talle">
+        <option selected>Talles</option>
+        <option value="1">XS</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+      </select>
+      <select class="form-select-color" aria-label="color">
+        <option selected>Color</option>
+        <option value="1">Beige</option>
+        <option value="2">Blanco</option>
+        <option value="3">Negro</option>
+        <option value="4">Azul</option>
+        <option value="5">Bordo</option>
+      </select>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
+      <section class="produc-containers" id="lista-2">
+        <br>
+        <h1 style="margin-left: 550px">Conjuntos </h1>
+        <br>
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/conjunto15.webp" class="d-block w-100" height="1000" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/conjunto17.webp" class="d-block w-100" height="1000" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/conjunto18.webp" class="d-block w-100" height="1000" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="Conjuntos">
+          <h3 style="margin-left: 580px;">Conjunto Sohfi</h3>
+          <div class="precios">
+            <p style="margin-left: 650px;" class="precio-1">$15000</p>
+          </div>
+          <a href="#" class="agregar-carrito btn-3" data-id="4" style="margin-left: 580px;">Agregar al Carrito</a>
+        </div>
+        <br>
+      </section>
+      <br>
+      <select class="form-select-talle" aria-label="talle">
+        <option selected>Talles</option>
+        <option value="1">XS</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+      </select>
+      <select class="form-select-color" aria-label="color">
+        <option selected>Color</option>
+        <option value="1">Beige</option>
+        <option value="2">Blanco</option>
+        <option value="3">Negro</option>
+        <option value="4">Azul</option>
+      </select>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
+      <section class="produc-containers" id="lista-3">
+      <div class="pie">
+        <h1>Jeans</h1>
+        <br>
+        <br>
+        <br>
+        <div class="indumentaria">
+          <div class="jean1">
+            <h3>Jeans Pill</h3>
+            <div class="precios">
+              <p class="precio-1">$8000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al Carrito</a>
+          </div>
+          <img src="./assets/images/blusa2.webp " width="300" height="400" alt="Benn">
+          <div class="jean2">
+            <h3>Jean Nav</h3>
+            <div class="precios">
+              <p class="precio-1">$5000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al Carrito</a>
+          </div>
+          <img src="./assets/images/jeans20.webp" width="300" height="400" alt="cann">
+          <div class="jean3">
+            <h3>Jeans Log</h3>
+            <div class="precios">
+              <p class="precio-1">$6000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al Carrito</a>
+          </div>
+          <img src="./assets/images/blusa5.webp" width="300" height="400" alt="jeans demin">
+        </div>
+      </div>
+      </section>
+      <br>
+      <br>
+      <select class="form-select-talle" aria-label="talle">
+        <option selected>Talles</option>
+        <option value="1">XS</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+      </select>
+      <select class="form-select-color" aria-label="color">
+        <option selected>Color</option>
+        <option value="1">Beige</option>
+        <option value="2">Negro</option>
+        <option value="3">jeans</option>
+        <option value="4">celeste</option>
+
+      </select>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <section class="produc-containers" id="lista-4">
+        <div class="pie">
+          <h1>Camisas</h1>
+          <br>
+          <br>
+          <br>
+          <div class="indumentaria">
+            <div class="cami1">
+              <h3>Camisa Popi</h3>
+              <div class="precios">
+                <p class="precio-1">$3000</p>
+              </div>
+              <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al Carrito</a>
+            </div>
+            <img src="./assets/images/camisa10.webp " width="300" height="400" alt="Benn">
+            <div class="cami2">
+              <h3>Camisa Gina</h3>
+              <div class="precios">
+                <p class="precio-1">$3000</p>
+              </div>
+              <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al Carrito</a>
+            </div>
+            <img src="./assets/images/camisa8.webp" width="300" height="400" alt="cann">
+            <div class="cami3">
+              <h3>Camisa Swith</h3>
+              <div class="precios">
+                <p class="precio-1">$6000</p>
+              </div>
+              <a href="#" class="agregar-carrito btn-3" id="10">Agregar al Carrito</a>
+            </div>
+            <img src="./assets/images/camisa7.webp" width="300" height="400" alt="jeans demin">
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <select class="form-select-talle" aria-label="talle">
+        <option selected>Talles</option>
+        <option value="1">XS</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+      </select>
+      <select class="form-select-color" aria-label="color">
+        <option selected>Color</option>
+        <option value="1">Beige</option>
+        <option value="2">diseno</option>
+        <option value="3">azul</option>
+      </select>
+      
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      
+  </main>
+
+  <footer class="footer">
+
+    <div style="margin-left: 110px;" id="columnas">
+      <li><a href="./pages/servicio-cliente.html">Servicio al Cliente</a></li>
+      <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
+      <li><a href="./pages/Politicas.html">Politicas de cambio y devolución</a></li>
+      <li><a href="./pages/Contacto.html">Contactenos</a></li>
+      <li>Seguinos</li>
+      <li>Instragram</li>
+      <li>Facebook</li>
+
+    </div>
+  </footer>
+  <br>
+  <br>
+  <br>
+  <br>
+  <script src="./carrito.js/formato.js"></script>
+  <script src="./carrito.js/pedido.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+

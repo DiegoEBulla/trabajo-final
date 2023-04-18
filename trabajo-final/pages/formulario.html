@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registro</title>
+    <style>
+        header {
+            background-color: rgb(190, 150, 170);
+
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+        li{
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h5 style="text-align: center;">Envio gratis a todo el país compras superiores a $20.000</h5>
+    </header>
+    <main>
+        <br>
+        <div style="text-align: center;">
+            <a target="_top" href="https://flamingtext.com/"><img
+                    src="https://blog.flamingtext.com/blog/2023/03/29/flamingtext_com_1680124080_1057183964.gif"
+                    border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+        </div>
+        <br>
+        <br>
+
+        <h2 style="margin-left: 500px;">Rellenar formulario completo:</h2>
+        <br>
+        <br>
+        <ul>
+            <div class="registro">
+                <div>
+                    <li>
+                        <label id="Nombre" for="Nombre">Nombre:</label>
+                        <input class="input" id="Nombre" type="text" required >
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <label id="apellido" for="apellido"></label> Apellido:</label>
+                        <input class="input" id="primer" type="text" required >
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <label id="dni" for="dni">DNI:</label>
+                        <input class="input" id="dni" type="number" required>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <label id="domicilio" for="domicilio">Domicilio:</label>
+                        <input class="input" id="domicilio" type="text" required>
+                    </li>
+                </div>
+            <div>
+                <li>
+                    <label id="provincia" for="provincia">Provincia:</label>
+                    <input class="input" id="provincia" type="text" required>
+                </li>
+            </div>  
+            <div>
+                <li>
+                    <label id="email" for="Nombre">Email:</label>
+                    <input class="input" id="email" type="text" required>
+                </li> 
+            </div>
+            <div>
+                <li>
+                    <label id="clave" for="Nombre">Contraseña:</label>
+                    <input class="input" id="clave" type="text" required>
+                </li> 
+            </div>
+
+            <div style="margin-left: 50px;" class="checkbox">
+                <input id="check" type="checkbox" required>
+                <a href="#">He leido y acepto la politica de privacidad</a>
+            </div>
+            <button style="font-size: large;" class="formbutton" type="submit" onclick="alert('¡Ud. se ha registrado correctamente!')"><a href="../index.html"> Registrarse</a></button >
+            
+            <p style="margin-left:35px;" class="message">
+                Ya tienes una cuenta?
+                <a href="./ingreso-pag.html">Inicia Sesión</a>
+            </p>
+        </div>  
+    </main>
+    <br>
+    <footer>
+        <hr>
+        <br>
+        <br>
+    </footer>
+    
+    <script src="../carrito.js/formato.js"></script>
+</body>
+
+</html>
